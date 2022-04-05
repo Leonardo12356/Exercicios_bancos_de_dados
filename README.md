@@ -1,4 +1,4 @@
-# Exercicios_bancos_de_dados
+# Exercicios_bancos_de_dados e Projeto Final
 Construir o Modelo Entidade- Relacionamento e em seguida o lógico (gráfico e textual) 
 para as questões a seguir:
 
@@ -68,3 +68,5 @@ Além disso, para cada item do pedido armazenar o código da peça, quantidade e
 Há somente um cliente por pedido e um vendedor;
 
 e) O preço cotado no pedido pode ser mesmo que o preço corrente no arquivo de peças, mas não necessariamente.
+
+    
