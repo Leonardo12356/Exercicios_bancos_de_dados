@@ -70,3 +70,17 @@ Há somente um cliente por pedido e um vendedor;
 e) O preço cotado no pedido pode ser mesmo que o preço corrente no arquivo de peças, mas não necessariamente.
 
     
+        Projeto Final
+        
+        E-commerce tradicional
+        
+Uma empresa do comércio varejista deseja realizar a venda de seus produtos pela internet e para isso precisa de um sistema capaz de realizar o controle de estoque e cadastro de clientes. Sendo assim, a seguir são descritos os requisitos e os dados que a empresa julga serem necessários para o funcionamento do sistema:
+O sistema deverá ter um cadastro de funcionários, com código, nome, cpf e salário;
+O sistema deve ser capaz de armazenar informações sobre os produtos da empresa, sendo eles: código, nome, quantidade em estoque, data de fabricação, valor unitário e data em que foi cadastrado;
+Ah! É importante ter como saber qual funcionário cadastrou o produto;
+Ao cadastrar um produto no sistema, deve ser possível e obrigatório associá-lo à uma categoria. Cada produto só poderá pertencer à uma categoria;
+Para cada categoria cadastrada é necessário registrar: código e nome;
+O sistema deverá armazenar dados dos clientes, que devem ser: código, nome completo, login, senha, e-mail, cpf, data de nascimento, telefone e endereço;
+Através do sistema, os clientes podem realizar pedidos;
+Cada pedido deve conter: um código que o identifique, a data em que foi realizado e por quem foi realizado (qual cliente efetuou a compra);
+Um pedido poderá conter um ou mais produtos (itens que foram comprados pelo cliente), e precisará ser armazenado a quantidade comprada de cada produto.
