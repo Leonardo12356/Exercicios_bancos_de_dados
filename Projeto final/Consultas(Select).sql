@@ -34,13 +34,16 @@ on public.produto_portugol.codigo_produto = item_pedido.codigo_produto
 
 
 /*Uma consulta mostrando a quantidade de pedidos por cliente, com resultado ordenado por nome do cliente, de modo crescente. (2 pontos)*/
-/*Em progresso*/
-select public.cliente_portugol.nome_cliente
-from
-public.pedido_portugol
-inner join public.cliente_portugol
+select public.cliente_portugol.nome_cliente,
+count (public.cliente_portugol.codigo_cliente)
+as
+qt_pedidos_cliente
+
+from public.cliente_portugol 
+inner join public.pedido_portugol
 on public.cliente_portugol.codigo_cliente = public.pedido_portugol.codigo_cliente
-order by  public.cliente_portugol.nome_cliente asc
+group by public.cliente_portugol.codigo_cliente
+order by public.cliente_portugol.nome_cliente asc;
 
 /*Utilize o inner join para uma consulta coerente em 3 tabelas. (2 pontos)*/
 /* descobrir os clientes que compraram com a forma de pagamento boleto*/
