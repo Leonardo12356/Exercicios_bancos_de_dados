@@ -31,9 +31,9 @@ CREATE TABLE public.cadastro_produto (
 );
 
 ALTER TABLE public.cadastro_produto 
-ADD CONSTRAINT "FK_cadastro_produto.codigo_funcionario"
-FOREIGN KEY (codigo_funcionario)
-REFERENCES public.cadastro_funcionario(codigo_funcionario);
+	ADD CONSTRAINT "FK_cadastro_produto.codigo_funcionario"
+	FOREIGN KEY (codigo_funcionario)
+	REFERENCES public.cadastro_funcionario(codigo_funcionario);
 
 
 
