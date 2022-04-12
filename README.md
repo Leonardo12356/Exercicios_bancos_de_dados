@@ -83,4 +83,4 @@ Para cada categoria cadastrada é necessário registrar: código e nome;
 O sistema deverá armazenar dados dos clientes, que devem ser: código, nome completo, login, senha, e-mail, cpf, data de nascimento, telefone e endereço;
 Através do sistema, os clientes podem realizar pedidos;
 Cada pedido deve conter: um código que o identifique, a data em que foi realizado e por quem foi realizado (qual cliente efetuou a compra);
-Um pedido poderá conter um ou mais produtos (itens que foram comprados pelo cliente), e precisará ser armazenado a quantidade comprada de cada produto.
+Um pedido poderá conter um ou mais produtos (itens que foram comprados pelo cliente), e precisará ser armazenado a quantidade comprada de cada produto. 
